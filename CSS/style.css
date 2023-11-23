@@ -1,0 +1,168 @@
+html{
+    background-color: #060d1a;
+    color: #fff;
+    font-family: Andale Mono, monospace;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+
+p{
+    color: #fff;
+    font-family: Andale Mono, monospace;
+}
+
+.title{
+    font-size: 50px;
+}
+
+pre a{
+    color:#7e7e7e;
+    font-weight: bold;
+}
+
+h1{
+    color: #fff;
+    font-family: Andale Mono, monospace;
+}
+
+h2{
+    color: #fff;
+    font-family: Andale Mono, monospace;
+}
+
+h3{
+    color: #fff;
+    font-family: Andale Mono, monospace;
+}
+
+.code{
+    border-radius: 5px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    border: 4px solid #3C3C3C;
+    padding: 20px;
+    background-color: #1F1F1F;
+    color: #fff;
+    font-family: Andale Mono, monospace;
+}
+
+.language-php{
+    border-radius: 5px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    border: 4px solid #3C3C3C;
+    padding: 20px;
+    background-color: #1F1F1F;
+    color: #fff;
+    font-family: Andale Mono, monospace;
+}
+
+.language-bash{
+    border-radius: 5px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    border: 4px solid #3C3C3C;
+    padding: 20px;
+    background-color: #1F1F1F;
+    color: #fff;
+    font-family: Andale Mono, monospace;
+}
+
+.language-python{
+    border-radius: 5px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    border: 4px solid #3C3C3C;
+    padding: 20px;
+    background-color: #1F1F1F;
+    color: #fff;
+    font-family: Andale Mono, monospace;
+}
+
+.language-c{
+    border-radius: 5px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    border: 4px solid #3C3C3C;
+    padding: 20px;
+    background-color: #1F1F1F;
+    color: #fff;
+    font-family: Andale Mono, monospace;
+}
+
+.conf{
+    border-radius: 5px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    border: 4px solid #3C3C3C;
+    padding: 20px;
+    background-color: #1F1F1F;
+    color: #fff;
+    font-family: Andale Mono, monospace;
+}
+
+.lcmd p::before {
+    content: "FR76@bank[~]$ ";
+    font-weight: bold;
+    color: #2780FC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lcmd p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lcmd{
+    border-radius: 5px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    border: 4px solid #152138;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #04080f;
+    color: #fff;
+    font-family: Andale Mono, monospace;
+}
+
+.wcmd p::before {
+    content: "C:\\Users\\FR76> ";
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wcmd p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wcmd{
+    border-radius: 5px;
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px;
+    border: 4px solid #333333;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0C0C0C;
+    color: #fff;
+    font-family: Andale Mono, monospace;
+}
+
+img{
+    padding: 10px;
+    max-width: calc(100% - 20px);
+    min-width: 70%;
+}
+
+pre{
+    font-family: Andale Mono, monospace;
+    margin: 0;
+}
