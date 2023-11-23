@@ -1,0 +1,82 @@
+{
+    "Init": {
+      "prefix": "/init",
+      "body": ["<!DOCTYPE html>", "<html>", "\t<head>", "\t\t<title>", "\t\t\t$0", "\t\t</title>", "\t\t<link rel=\"stylesheet\" href=\"mystyle.css\">", "\t\t<meta name=\"author\" content=\"FR76\">", "\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">", "\t</head>", "\t<body>", "\t\t<h1 class=\"title\">", "\t\t\t", "\t\t</h1>", "\t\t<div id=\"summary\">", "\t\t</div>", "\t</body>", "\t<footer>", "\t</footer>", "</html>"],
+      "description": "Initiate the HTML page"
+    },
+    "Title 1": {
+        "prefix": "/t1",
+        "body": ["<h1 id=\"\">$0</h1>"],
+        "description": "Generate a title 1 block"
+    },
+    "Title 2": {
+        "prefix": "/t2",
+        "body": ["<h2 id=\"\">$0</h2>"],
+        "description": "Generate a title 2 block"
+    },
+    "Title 3": {
+        "prefix": "/t3",
+        "body": ["<h3 id=\"\">$0</h3>"],
+        "description": "Generate a title 3 block"
+    },
+    "Code block": {
+      "prefix": "/code",
+      "body": ["<div class='code'>", "\t$0", "</div>"],
+      "description": "Generate a code block"
+    },
+    "Code html": {
+      "prefix": "/html",
+      "body": ["<div class='language-html'>", "\t$0", "</div>"],
+      "description": "Generate a html code block"
+    },
+    "Code css": {
+      "prefix": "/css",
+      "body": ["<div class='language-css'>", "\t$0", "</div>"],
+      "description": "Generate a css code block"
+    },
+    "Code javascript": {
+      "prefix": "/js",
+      "body": ["<div class='language-javascript'>", "\t$0", "</div>"],
+      "description": "Generate a javascript code block"
+    },
+    "Code bash": {
+      "prefix": "/sh",
+      "body": ["<div class='language-bash'>", "\t$0", "</div>"],
+      "description": "Generate a sh code block"
+    },
+    "Code php": {
+      "prefix": "/php",
+      "body": ["<div class='language-php'>", "\t$0", "</div>"],
+      "description": "Generate a php code block"
+    },
+    "Code python": {
+      "prefix": "/python",
+      "body": ["<div class='language-python'>", "\t$0", "</div>"],
+      "description": "Generate a python code block"
+    },
+    "Code C": {
+      "prefix": "/ccode",
+      "body": ["<div class='language-c'>", "\t$0", "</div>"],
+      "description": "Generate a C code block"
+    },
+    "Config file": {
+      "prefix": "/conf",
+      "body": ["<div class='conf'>", "\t$0", "</div>"],
+      "description": "Generate a config code block"
+    },
+    "Linux command": {
+      "prefix": "/lcmd",
+      "body": ["<div class='lcmd'>", "\t$0", "</div>"],
+      "description": "Generate a Linux command block"
+    },
+    "Windows command": {
+      "prefix": "/wcmd",
+      "body": ["<div class='wcmd'>", "\t$0", "</div>"],
+      "description": "Generate a Windows command block"
+    },
+    "Image": {
+      "prefix": "/img",
+      "body": ["<img src=\"$0\" alt=\"\">"],
+      "description": "Generate an Image"
+    }
+  }
