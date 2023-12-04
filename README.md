@@ -3,7 +3,7 @@ Write a clean and pretty documentation in HTML (vs code extension, css styleshee
   
 
 # Visual Studio Code Extension
-Little VSCode Extension with shortcuts for HTML tags.
+Little VSCode Extension with snippets for HTML tags.
 
 For example, if you type in VSCode :
 ```
