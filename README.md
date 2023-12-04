@@ -1,10 +1,8 @@
 # documentation
----
 Write a clean and pretty documentation in HTML (vs code extension, css stylesheet, js scripts)
   
 
 # Visual Studio Code Extension
----
 Little VSCode Extension with shortcuts for HTML tags.
 
 For example, if you type in VSCode :
@@ -34,6 +32,5 @@ Cheatsheet :
   
 
 # CSS and Scripts
----
 CSS file and Javascript files to make your documentation pretty.
 This files will be kept up to date and possible other styles will come sooner or later.
