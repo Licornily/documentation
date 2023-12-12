@@ -16,7 +16,7 @@ $(document).ready(function () {
 
                 // Diviser le contenu en lignes
                 var lines = content.split("\n");
-                lines = lines.slice(1, -1);
+                lines = lines.slice(2, -2);
 
                 // Sauvegarder le nombre maximum de lignes
                 if (lines.length > maxLines) {
@@ -43,10 +43,10 @@ $(document).ready(function () {
                     }
                 });
 
-                $(this).contents().filter(function () {
-                    return this.nodeType === 3 && $.trim(this.nodeValue) !== '';
-                }).remove();
-                                    
+                // $(this).contents().filter(function () {
+                //     return this.nodeType === 3 && $.trim(this.nodeValue) !== '';
+                // }).remove();
+                $(this).find('p').remove();     
             });
 
             counter += 1;
