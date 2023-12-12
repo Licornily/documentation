@@ -21,62 +21,67 @@
     },
     "Code block": {
       "prefix": "/code",
-      "body": ["<div class='code'>", "\t$0", "</div>"],
+      "body": ["<button class=\"codeButton\" data-clipboard-target=\"#\">","\tCopy content","</button>","<div class='code'>", "\t<p>", "$0", "\t</p>", "</div>"],
       "description": "Generate a code block"
     },
     "Code html": {
       "prefix": "/html",
-      "body": ["<div class='language-html'>", "\t$0", "</div>"],
+      "body": ["<button class=\"codeButton\" data-clipboard-target=\"#\">","\tCopy content","</button>","<div class='language-html'>", "\t<p>", "$0", "\t</p>", "</div>"],
       "description": "Generate a html code block"
     },
     "Code css": {
       "prefix": "/css",
-      "body": ["<div class='language-css'>", "\t$0", "</div>"],
+      "body": ["<button class=\"codeButton\" data-clipboard-target=\"#\">","\tCopy content","</button>","<div class='language-css'>", "\t<p>", "$0", "\t</p>", "</div>"],
       "description": "Generate a css code block"
     },
     "Code javascript": {
       "prefix": "/js",
-      "body": ["<div class='language-javascript'>", "\t$0", "</div>"],
+      "body": ["<button class=\"codeButton\" data-clipboard-target=\"#\">","\tCopy content","</button>","<div class='language-javascript'>", "\t<p>", "$0", "\t</p>", "</div>"],
       "description": "Generate a javascript code block"
     },
     "Code bash": {
       "prefix": "/sh",
-      "body": ["<div class='language-bash'>", "\t$0", "</div>"],
+      "body": ["<button class=\"codeButton\" data-clipboard-target=\"#\">","\tCopy content","</button>","<div class='language-bash'>", "\t<p>", "$0", "\t</p>", "</div>"],
       "description": "Generate a sh code block"
     },
     "Code php": {
       "prefix": "/php",
-      "body": ["<div class='language-php'>", "\t$0", "</div>"],
+      "body": ["<button class=\"codeButton\" data-clipboard-target=\"#\">","\tCopy content","</button>","<div class='language-php'>", "\t<p>", "$0", "\t</p>", "</div>"],
       "description": "Generate a php code block"
     },
     "Code python": {
       "prefix": "/python",
-      "body": ["<div class='language-python'>", "\t$0", "</div>"],
+      "body": ["<button class=\"codeButton\" data-clipboard-target=\"#\">","\tCopy content","</button>","<div class='language-python'>", "\t<p>", "$0", "\t</p>", "</div>"],
       "description": "Generate a python code block"
     },
     "Code C": {
       "prefix": "/ccode",
-      "body": ["<div class='language-c'>", "\t$0", "</div>"],
+      "body": ["<button class=\"codeButton\" data-clipboard-target=\"#\">","\tCopy content","</button>","<div class='language-c'>", "\t<p>", "$0", "\t</p>", "</div>"],
       "description": "Generate a C code block"
     },
     "Config file": {
       "prefix": "/conf",
-      "body": ["<div class='conf'>", "\t$0", "</div>"],
+      "body": ["<button class=\"codeButton\" data-clipboard-target=\"#\">","\tCopy content","</button>","<div class='conf'>", "\t<p>", "$0", "\t</p>", "</div>"],
       "description": "Generate a config code block"
     },
     "Linux command": {
       "prefix": "/lcmd",
-      "body": ["<div class='lcmd'>", "\t$0", "</div>"],
+      "body": ["<button class=\"lButton\" data-clipboard-target=\"#\">","\tCopy content","</button>","<div class='lcmd'>", "\t<pre>$0</pre>", "</div>"],
       "description": "Generate a Linux command block"
     },
     "Windows command": {
       "prefix": "/wcmd",
-      "body": ["<div class='wcmd'>", "\t$0", "</div>"],
+      "body": ["<button class=\"wButton\" data-clipboard-target=\"#\">","\tCopy content","</button>","<div class='wcmd'>", "\t<pre>$0</pre>", "</div>"],
       "description": "Generate a Windows command block"
     },
     "Image": {
       "prefix": "/img",
       "body": ["<img src=\"$0\" alt=\"\">"],
+      "description": "Generate an Image"
+    },
+    "Table": {
+      "prefix": "/table",
+      "body": ["<table>", "\t<tr>", "\t\t<th>", "", "\t\t</th>", "\t\t<th>", "", "\t\t</th>", "\t</tr>", "\t<tr>", "\t\t<td>", "", "\t\t</td>", "\t\t<td>", "", "\t\t</td>", "\t</tr>", "\t<tr>", "\t\t<td>", "", "\t\t</td>", "\t\t<td>", "", "\t\t</td>", "\t</tr>", "</table>"],
       "description": "Generate an Image"
     }
   }
